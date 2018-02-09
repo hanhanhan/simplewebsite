@@ -1,0 +1,47 @@
+body {
+    font-family: 'Lora', serif;
+    padding: 5em;
+    border-style: solid;
+    border-width: 1em;
+    border-color: seagreen;
+    font-size: 2em;
+}
+
+h1 {
+    font-family: 'Shrikhand', cursive;
+}
+
+/* :hover is called a pseudo selector. Why? */
+h1:hover, h2:hover {
+    text-decoration: underline;
+
+}
+
+/* Using a class to select an element to style. */
+/* Why is that 'period' there? */
+/* class period */
+.keypress {
+    font-family: 'Rubik Mono One', sans-serif;
+    background-color: lightgray;
+}
+
+/* Using an ID to select an element to style. */
+/* Why is that 'octothorpe' aka pound aka number symbol there? */
+/* id number */
+#unique1 {
+    background-color: rgb(247, 247, 130);
+}
+
+#unique2 {
+    background-color: hsl(30, 88%, 74%);
+}
+
+#unique3 {
+    background-color: #DF82F7;
+}
+
+img {
+    /*vw is view width*/
+    /*you can also use percentages or pixels*/
+    width: 70vw;
+}
